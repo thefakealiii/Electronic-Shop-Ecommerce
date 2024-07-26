@@ -13,8 +13,8 @@ const Footer = () => {
             <FaLinkedin />
           </a>
         </div>
-        <p className="mb-0">Made by <span className="font-weight-bold">Ali</span></p>
-        <p className="mb-0">© {new Date().getFullYear()} Your Company</p>
+        <p className="mb-0">Made by <span className="font-weight-bold">astrameld.com</span></p>
+        <p className="mb-0">© {new Date().getFullYear()} Aaaproenergyservices</p>
       </div>
     </footer>
   );
