@@ -57,9 +57,541 @@ import img48 from '../assets/images/Mini Portable Multi-Functional 7 In 1 Cleani
 import img49 from '../assets/images/1 Piece Love Heart Shape Phone Wipe Cloth Screen Wip.webp';
 import img50 from '../assets/images/1Pair Camera Accessories Black & Transparent Lens.webp';
 import img51 from '../assets/images/Lens Hood Canon for EF 50mm f 1.8 STM ES-68 - Black.webp';
+import img52 from '../assets/images/Tuya WiFi Smart Power Meter Earth Leakage Protector Switch.jpeg';
+import img53 from '../assets/images/12-220V LCD Weekly Programmable Electronic Relay.webp'; 
+//price 6
+import img54 from '../assets/images/MORA 63A VOLTAGE PROTECTION.jpeg'; //price 6
+import img55 from '../assets/images/Evoo Branded CHINA Fitting Switch Board.webp'; //price 6
+import img56 from '../assets/images/Change Over Switch 40 Amp Single Phase 2 Pole Rotry Type.jpeg'; //price 6
+import img57 from '../assets/images/EI41X17 220V AC to 12V 4W transformer 50 herts low.webp'; //price 6
+import img58 from '../assets/images/1pcs 0.5mm 10M Insulated copper wire enameled wire lead.webp';
+import img59 from '../assets/images/Steel Travel Outdoor Electric Mug Car Charging Electric.webp';
+import img60 from '../assets/images/3.3V slash 5V MB102 Breadboard power module plus MB-102 830.webp';
+import img61 from '../assets/images/High-Precision Handled RC3563 Battery Tester Internal.webp';
+import img62 from '../assets/images/3.3V slash 5V MB102 Breadboard power module plus MB-102 830.webp';
+import img63 from '../assets/images/3D Pen Filament Wire for Doodle Pen Refills.webp';
+import img65 from '../assets/images/Arduino UNO RFID Starter Kit.webp';
+import img66 from '../assets/images/K TYPE STUD TYPE THERMOCOUPLE.webp';
+import img67 from '../assets/images/Extension Board with Voltage Ampere Display.webp';
+import img68 from '../assets/images/5PCS JST XH2.54 XH 2 3 4 5 6 7 8 9 10 Pin Wire.jpeg';
+import img69 from '../assets/images/Best Of Mosquito Light Lamp ( Pack OF 3 ).webp';
+import img70 from '../assets/images/Extension Board with USB port High Quality Extension Board.webp';
+import img71 from '../assets/images/3W 6V Solar panel regulated 5V USB phone Battery Charger.webp';
+import img72 from '../assets/images/Extension Board 5 Ports Power socket AC220V-16A Without.webp';
+import img73 from '../assets/images/Extension Board with Voltage Ampere Display.webp';
+import img74 from '../assets/images/Extension Board with 2 Universal 3 pin Sockets.webp';
+import img75 from '../assets/images/Extension Board with Voltage Ampere Display.webp';
+import img76 from '../assets/images/JASCO GENERATOR TITANIUM SERIES LOW NOISE SELF.webp';
+import img77 from '../assets/images/LIANLONG LL3500 -3KW Self Start Petrol Generator(40 hours.webp';
+import img78 from '../assets/images/LUTIAN Generator - LT3990E -3.5Kva  2.8Kw (280).webp';
+import img79 from '../assets/images/JASCO 8 KVA SOUNPROOF CANOPY EPA 3.webp';
+import img80 from '../assets/images/2 in 1 Wireless B6 5.0 Adapter Bluetooth Transmitter Receiver.webp';
+import img81 from '../assets/images/Car Bluetooth Receiver FM Transmitter Wireless Audio.jpeg';
+import img82 from '../assets/images/Bluetooth Receiver Car Kit Handsfree Call 3.5mm Jack TF.jpeg';
+import img83 from '../assets/images/FM Transmitter FM Modulator Car Music Receiver MP3 Player.jpeg';
+import img84 from '../assets/images/Original TOMZN 63A WIFI TUYA Smartlife Reclosable.jpeg';
+import img85 from '../assets/images/EWeLink App 16A Mini Wifi Smart Switch Light On Off.jpeg';
+import img86 from '../assets/images/Tomzn 63A Wifi Smart Switch.jpeg';
+import img87 from '../assets/images/DC 1000V Solar Mini Circuit Breaker Overload Protection.jpeg';
+import img88 from '../assets/images/Solar Panel by Jasco - 180 Watt.webp';
+import img89 from '../assets/images/Pak Tech Mppt Plus Hybrid Solar Charger Controller 70.webp';
+import img90 from '../assets/images/Diwan DS4.10 MC4 Solar Panel Connector 4-6mm2 1500V DC.webp';
+import img91 from '../assets/images/Solar Power Inverter - 1000 Watt - Black.webp';
+import img92 from '../assets/images/LED Solar Wall Lamp Outdoor Waterproof Up And Down.jpeg';
+import img93 from '../assets/images/72 C0B Solar Lights Outdoor, Wireless Waterproof Solar.webp';
+
+
+
+
+
 
 const Products = () => {
   const productData = [
+
+
+    {
+      id: 52,
+      title: "Tuya wifi Energy Meter",
+      price: 12,
+      description: "Tuya WiFi Smart Power Meter Earth Leakage Protector Switch ",
+      category: "accessories",
+      image: img52,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+    {
+      id: 53,
+      title: "LCD Weekly Programmable Relay",
+      price: 6,
+      description: "12-220V LCD Weekly Programmable Electronic Relay",
+      category: "accessories",
+      image: img53,
+      rating: {
+        rate: 4.2,
+        count: 80
+      }
+    },
+    {
+      id: 54,
+      title: "Voltage Protection",
+      price: 6,
+      description: "MORA 63A VOLTAGE PROTECTION",
+      category: "accessories",
+      image: img54,
+      rating: {
+        rate: 4.3,
+        count: 90
+      }
+    },
+    {
+      id: 55,
+      title: "China Fitting Switch Board",
+      price: 6,
+      description: "Evoo Branded CHINA Fitting Switch Board",
+      category: "accessories",
+      image: img55,
+      rating: {
+        rate: 4.0,
+        count: 70
+      }
+    },
+    {
+      id: 56,
+      title: "Change Over Switch",
+      price: 6,
+      description: "Change Over Switch 40 Amp Single Phase 2 Pole Rotry Type",
+      category: "accessories",
+      image: img56,
+      rating: {
+        rate: 4.1,
+        count: 75
+      }
+    },
+    {
+      id: 57,
+      title: "AC to 12V Transformer",
+      price: 6,
+      description: "EI41X17 220V AC to 12V 4W transformer 50 herts low",
+      category: "accessories",
+      image: img57,
+      rating: {
+        rate: 4.3,
+        count: 85
+      }
+    },
+    {
+      id: 58,
+      title: "Insulated Copper Wire",
+      price: 2,
+      description: "1pcs 0.5mm 10M Insulated copper wire enameled wire lead",
+      category: "accessories",
+      image: img58,
+      rating: {
+        rate: 4.4,
+        count: 110
+      }
+    },
+    {
+      id: 59,
+      title: "Electric Mug",
+      price: 15,
+      description: "Steel Travel Outdoor Electric Mug Car Charging Electric",
+      category: "accessories",
+      image: img59,
+      rating: {
+        rate: 4.5,
+        count: 120
+      }
+    },
+    {
+      id: 60,
+      title: "Breadboard Power Module",
+      price: 3,
+      description: "3.3V/5V MB102 Breadboard power module plus MB-102 830",
+      category: "accessories",
+      image: img60,
+      rating: {
+        rate: 4.2,
+        count: 60
+      }
+    },
+    {
+      id: 61,
+      title: "Battery Tester",
+      price: 10,
+      description: "High-Precision Handled RC3563 Battery Tester Internal",
+      category: "accessories",
+      image: img61,
+      rating: {
+        rate: 4.6,
+        count: 130
+      }
+    },
+    {
+      id: 62,
+      title: "Breadboard Power Module",
+      price: 3,
+      description: "3.3V/5V MB102 Breadboard power module plus MB-102 830",
+      category: "accessories",
+      image: img62,
+      rating: {
+        rate: 4.2,
+        count: 60
+      }
+    },
+    {
+      id: 63,
+      title: "3D Pen Filament Wire",
+      price: 5,
+      description: "3D Pen Filament Wire for Doodle Pen Refills",
+      category: "accessories",
+      image: img63,
+      rating: {
+        rate: 4.3,
+        count: 100
+      }
+    },
+    
+    {
+      id: 65,
+      title: "Arduino RFID Starter Kit",
+      price: 20,
+      description: "Arduino UNO RFID Starter Kit",
+      category: "accessories",
+      image: img65,
+      rating: {
+        rate: 4.7,
+        count: 150
+      }
+    },
+    {
+      id: 66,
+      title: "Thermocouple",
+      price: 7,
+      description: "K TYPE STUD TYPE THERMOCOUPLE",
+      category: "accessories",
+      image: img66,
+      rating: {
+        rate: 4.3,
+        count: 80
+      }
+    },
+    {
+      id: 67,
+      title: "Extension Board",
+      price: 12,
+      description: "Extension Board with Voltage Ampere Display",
+      category: "accessories",
+      image: img67,
+      rating: {
+        rate: 4.5,
+        count: 90
+      }
+    },
+    {
+      id: 68,
+      title: "JST Pin Wire",
+      price: 4,
+      description: "5PCS JST XH2.54 XH 2 3 4 5 6 7 8 9 10 Pin Wire",
+      category: "accessories",
+      image: img68,
+      rating: {
+        rate: 4.4,
+        count: 70
+      }
+    },
+    {
+      id: 69,
+      title: "Mosquito Light Lamp",
+      price: 10,
+      description: "Best Of Mosquito Light Lamp (Pack OF 3)",
+      category: "accessories",
+      image: img69,
+      rating: {
+        rate: 4.2,
+        count: 80
+      }
+    },
+    {
+      id: 70,
+      title: "Extension Board with USB",
+      price: 14,
+      description: "Extension Board with USB port High Quality Extension Board",
+      category: "accessories",
+      image: img70,
+      rating: {
+        rate: 4.5,
+        count: 100
+      }
+    },
+    {
+      id: 71,
+      title: "Solar Panel Charger",
+      price: 8,
+      description: "3W 6V Solar panel regulated 5V USB phone Battery Charger",
+      category: "accessories",
+      image: img71,
+      rating: {
+        rate: 4.3,
+        count: 75
+      }
+    },
+    {
+      id: 72,
+      title: "Extension Board",
+      price: 11,
+      description: "Extension Board 5 Ports Power socket AC220V-16A Without",
+      category: "accessories",
+      image: img72,
+      rating: {
+        rate: 4.2,
+        count: 70
+      }
+    },
+    {
+      id: 73,
+      title: "Extension Board",
+      price: 12,
+      description: "Extension Board with Voltage Ampere Display",
+      category: "accessories",
+      image: img73,
+      rating: {
+        rate: 4.5,
+        count: 90
+      }
+    },
+    {
+      id: 74,
+      title: "Extension Board",
+      price: 10,
+      description: "Extension Board with 2 Universal 3 pin Sockets",
+      category: "accessories",
+      image: img74,
+      rating: {
+        rate: 4.3,
+        count: 80
+      }
+    },
+    {
+      id: 75,
+      title: "Extension Board",
+      price: 12,
+      description: "Extension Board with Voltage Ampere Display",
+      category: "accessories",
+      image: img75,
+      rating: {
+        rate: 4.5,
+        count: 90
+      }
+    },
+    {
+      id: 76,
+      title: "Low Noise Generator",
+      price: 300,
+      description: "JASCO GENERATOR TITANIUM SERIES LOW NOISE SELF",
+      category: "generators",
+      image: img76,
+      rating: {
+        rate: 4.7,
+        count: 50
+      }
+    },
+    {
+      id: 77,
+      title: "Petrol Generator",
+      price: 250,
+      description: "LIANLONG LL3500 -3KW Self Start Petrol Generator(40 hours",
+      category: "generators",
+      image: img77,
+      rating: {
+        rate: 4.6,
+        count: 55
+      }
+    },
+    {
+      id: 78,
+      title: "LUTIAN Generator",
+      price: 280,
+      description: "LUTIAN Generator - LT3990E -3.5Kva 2.8Kw (280)",
+      category: "generators",
+      image: img78,
+      rating: {
+        rate: 4.5,
+        count: 60
+      }
+    },
+    {
+      id: 79,
+      title: "Soundproof Canopy Generator",
+      price: 500,
+      description: "JASCO 8 KVA SOUNPROOF CANOPY EPA 3",
+      category: "generators",
+      image: img79,
+      rating: {
+        rate: 4.8,
+        count: 40
+      }
+    },
+    {
+      id: 80,
+      title: "Wireless Bluetooth Adapter",
+      price: 10,
+      description: "2 in 1 Wireless B6 5.0 Adapter Bluetooth Transmitter Receiver",
+      category: "accessories",
+      image: img80,
+      rating: {
+        rate: 4.4,
+        count: 90
+      }
+    },
+    {
+      id: 81,
+      title: "Car Bluetooth Receiver",
+      price: 8,
+      description: "Car Bluetooth Receiver FM Transmitter Wireless Audio",
+      category: "accessories",
+      image: img81,
+      rating: {
+        rate: 4.2,
+        count: 70
+      }
+    },
+    {
+      id: 82,
+      title: "Bluetooth Car Kit",
+      price: 9,
+      description: "Bluetooth Receiver Car Kit Handsfree Call 3.5mm Jack TF",
+      category: "accessories",
+      image: img82,
+      rating: {
+        rate: 4.3,
+        count: 75
+      }
+    },
+    {
+      id: 83,
+      title: "FM Transmitter",
+      price: 8,
+      description: "FM Transmitter FM Modulator Car Music Receiver MP3 Player",
+      category: "accessories",
+      image: img83,
+      rating: {
+        rate: 4.1,
+        count: 65
+      }
+    },
+    {
+      id: 84,
+      title: "Smartlife Reclosable",
+      price: 18,
+      description: "Original TOMZN 63A WIFI TUYA Smartlife Reclosable",
+      category: "accessories",
+      image: img84,
+      rating: {
+        rate: 4.6,
+        count: 100
+      }
+    },
+    {
+      id: 85,
+      title: "Mini Wifi Smart Switch",
+      price: 7,
+      description: "EWeLink App 16A Mini Wifi Smart Switch Light On Off",
+      category: "accessories",
+      image: img85,
+      rating: {
+        rate: 4.4,
+        count: 90
+      }
+    },
+    {
+      id: 86,
+      title: "Smart Switch",
+      price: 17,
+      description: "Tomzn 63A Wifi Smart Switch",
+      category: "accessories",
+      image: img86,
+      rating: {
+        rate: 4.5,
+        count: 95
+      }
+    },
+    {
+      id: 87,
+      title: "Solar Mini Circuit Breaker",
+      price: 10,
+      description: "DC 1000V Solar Mini Circuit Breaker Overload Protection",
+      category: "accessories",
+      image: img87,
+      rating: {
+        rate: 4.4,
+        count: 85
+      }
+    },
+    {
+      id: 88,
+      title: "Solar Panel",
+      price: 100,
+      description: "Solar Panel by Jasco - 180 Watt",
+      category: "accessories",
+      image: img88,
+      rating: {
+        rate: 4.7,
+        count: 120
+      }
+    },
+    {
+      id: 89,
+      title: "Hybrid Solar Charger Controller",
+      price: 50,
+      description: "Pak Tech Mppt Plus Hybrid Solar Charger Controller 70",
+      category: "accessories",
+      image: img89,
+      rating: {
+        rate: 4.5,
+        count: 110
+      }
+    },
+    {
+      id: 90,
+      title: "Solar Panel Connector",
+      price: 6,
+      description: "Diwan DS4.10 MC4 Solar Panel Connector 4-6mm2 1500V DC",
+      category: "accessories",
+      image: img90,
+      rating: {
+        rate: 4.3,
+        count: 80
+      }
+    },
+    {
+      id: 91,
+      title: "Solar Power Inverter",
+      price: 120,
+      description: "Solar Power Inverter - 1000 Watt - Black",
+      category: "accessories",
+      image: img91,
+      rating: {
+        rate: 4.6,
+        count: 100
+      }
+    },
+    {
+      id: 92,
+      title: "LED Solar Wall Lamp",
+      price: 15,
+      description: "LED Solar Wall Lamp Outdoor Waterproof Up And Down",
+      category: "accessories",
+      image: img92,
+      rating: {
+        rate: 4.5,
+        count: 90
+      }
+    },
+
+    
     {
       id: 1,
       title: "USB 3.0",
@@ -671,6 +1203,20 @@ const Products = () => {
       rating: {
         rate: 4.4,
         count: 100
+      }
+    },
+
+   
+    {
+      id: 93,
+      title: "Solar Lights Outdoor",
+      price: 20,
+      description: "72 C0B Solar Lights Outdoor, Wireless Waterproof Solar",
+      category: "accessories",
+      image: img93,
+      rating: {
+        rate: 4.6,
+        count: 95
       }
     }
   ];
