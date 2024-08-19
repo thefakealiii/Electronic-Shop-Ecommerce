@@ -6,99 +6,100 @@ import "react-loading-skeleton/dist/skeleton.css";
 import { Link } from "react-router-dom";
 
 // Import your images
-import img1 from '../assets/images/usb3.0.jpg';
-import img2 from '../assets/images/camera.jpg';
-import img3 from '../assets/images/earphone.jpg';
-import img4 from '../assets/images/microphone.webp';
-import img5 from '../assets/images/wristwatch.jpg';
-import img6 from '../assets/images/arduino.jpg';
-import img7 from '../assets/images/blackcameralens.jpg';
-import img8 from '../assets/images/bluetoothheadsets.avif';
-import img9 from '../assets/images/flashmemorypendrive.jpg';
-import img10 from '../assets/images/headphoneandheadsetsaccess.jpg';
-import img11 from '../assets/images/monoheadsets.jpg';
-import img12 from '../assets/images/mouse.avif';
-import img13 from '../assets/images/phonecases.avif';
-import img14 from '../assets/images/powerbanks.avif';
-import img15 from '../assets/images/sdcard.jpg';
-import img16 from '../assets/images/wristwatchclock.jpg';
-import img17 from '../assets/images/xbox.jpg';
-import img18 from '../assets/images/externalusb2.0.jpeg';
-import img19 from '../assets/images/tabletradiator.webp';
-import img20 from '../assets/images/Dc12Vcoolingfan.webp';
-import img21 from '../assets/images/F4plus_notebookcoolingpad.webp';
-import img22 from '../assets/images/Cx09tabletcooler.webp';
-import img23 from '../assets/images/500Winverter_DC 12V TO AC 220V powersupply.webp';
-import img24 from '../assets/images/micronicscyclone.webp';
-import img25 from '../assets/images/Oasis600W Gaming.webp';
-import img26 from '../assets/images/4GbRam.webp';
-import img27 from '../assets/images/usb2.0 external sound card.webp';
-import img28 from '../assets/images/externalusbsoundcard.webp';
-import img29 from '../assets/images/Quadro K600 1GB 128Bit DDR3 Graphic Card, Best For Gaming.webp';
-import img30 from '../assets/images/NVIDIA GEFORCE GT730 2GB GDDR5 GAMING GRAPHIC.webp';
-import img31 from '../assets/images/Mini PCIe to PCI Express 16X Riser for Laptop External image.webp';
-import img32 from '../assets/images/AMD Radeon R5 340X 2GB DDR3 PCI Express Graphic.webp';
-import img33 from '../assets/images/AMD R5240 1GB Graphics Card- DDR3 64bit dx12.webp';
-import img34 from '../assets/images/AMD RADEON HD8490 1GB, DDR3, 64BIT, GAMING GRAPHI.webp';
-import img35 from '../assets/images/AMD Radeon HD 8570 1GB DDR3 DirectX 12, PCIe x16.webp';
-import img36 from '../assets/images/Nvidia Quadro P620 2GB GDDR5 , Graphic Card.webp';
-import img37 from '../assets/images/PNY Quadro NVS315 1GB DDR3 DirectX11 best for Gaming.webp';
-import img38 from '../assets/images/PREMIUM COOLCOLD Vacuum Portable Laptop Cooler USB.webp';
-import img39 from '../assets/images/DL06 Mobile Cooling Fan.webp';
-import img40 from '../assets/images/CX09 Tablet Cooler Mobile Cooler Phone Radiator For IPAD.webp';
-import img41 from '../assets/images/Best Quality Baseball Men Caps for Casual Use Sun Hats.jpeg';
-import img42 from '../assets/images/7-Piece Keyboard Cleaning Brush Earplug Cleaning Kit.jpeg';
-import img43 from '../assets/images/Camera Lens Protector Compatible with iPhone 13.webp';
-import img44 from '../assets/images/Lens Back Cap Canon DSLR Camera Rear Size- Black.webp';
-import img45 from '../assets/images/Computer Keyboard Cleaner Brush 7 In 1 Electronic Kit.webp';
-import img46 from '../assets/images/Phone Lens 0.45X Ultra Wide-Angle Macro Lens Phone.webp';
-import img47 from '../assets/images/LKPCIGCXM Fish Eye Phone Lens, 0.45X Phone with HD.webp';
-import img48 from '../assets/images/Mini Portable Multi-Functional 7 In 1 Cleaning Tool Kit.webp';
-import img49 from '../assets/images/1 Piece Love Heart Shape Phone Wipe Cloth Screen Wip.webp';
-import img50 from '../assets/images/1Pair Camera Accessories Black & Transparent Lens.webp';
-import img51 from '../assets/images/Lens Hood Canon for EF 50mm f 1.8 STM ES-68 - Black.webp';
-import img52 from '../assets/images/Tuya WiFi Smart Power Meter Earth Leakage Protector Switch.jpeg';
-import img53 from '../assets/images/12-220V LCD Weekly Programmable Electronic Relay.webp'; 
-//price 6
-import img54 from '../assets/images/MORA 63A VOLTAGE PROTECTION.jpeg'; //price 6
-import img55 from '../assets/images/Evoo Branded CHINA Fitting Switch Board.webp'; //price 6
-import img56 from '../assets/images/Change Over Switch 40 Amp Single Phase 2 Pole Rotry Type.jpeg'; //price 6
-import img57 from '../assets/images/EI41X17 220V AC to 12V 4W transformer 50 herts low.webp'; //price 6
-import img58 from '../assets/images/1pcs 0.5mm 10M Insulated copper wire enameled wire lead.webp';
-import img59 from '../assets/images/Steel Travel Outdoor Electric Mug Car Charging Electric.webp';
-import img60 from '../assets/images/3.3V slash 5V MB102 Breadboard power module plus MB-102 830.webp';
-import img61 from '../assets/images/High-Precision Handled RC3563 Battery Tester Internal.webp';
-import img62 from '../assets/images/3.3V slash 5V MB102 Breadboard power module plus MB-102 830.webp';
-import img63 from '../assets/images/3D Pen Filament Wire for Doodle Pen Refills.webp';
-import img65 from '../assets/images/Arduino UNO RFID Starter Kit.webp';
-import img66 from '../assets/images/K TYPE STUD TYPE THERMOCOUPLE.webp';
-import img67 from '../assets/images/Extension Board with Voltage Ampere Display.webp';
-import img68 from '../assets/images/5PCS JST XH2.54 XH 2 3 4 5 6 7 8 9 10 Pin Wire.jpeg';
-import img69 from '../assets/images/Best Of Mosquito Light Lamp ( Pack OF 3 ).webp';
-import img70 from '../assets/images/Extension Board with USB port High Quality Extension Board.webp';
-import img71 from '../assets/images/3W 6V Solar panel regulated 5V USB phone Battery Charger.webp';
-import img72 from '../assets/images/Extension Board 5 Ports Power socket AC220V-16A Without.webp';
-import img73 from '../assets/images/Extension Board with Voltage Ampere Display.webp';
-import img74 from '../assets/images/Extension Board with 2 Universal 3 pin Sockets.webp';
-import img75 from '../assets/images/Extension Board with Voltage Ampere Display.webp';
-import img76 from '../assets/images/JASCO GENERATOR TITANIUM SERIES LOW NOISE SELF.webp';
-import img77 from '../assets/images/LIANLONG LL3500 -3KW Self Start Petrol Generator(40 hours.webp';
-import img78 from '../assets/images/LUTIAN Generator - LT3990E -3.5Kva  2.8Kw (280).webp';
-import img79 from '../assets/images/JASCO 8 KVA SOUNPROOF CANOPY EPA 3.webp';
-import img80 from '../assets/images/2 in 1 Wireless B6 5.0 Adapter Bluetooth Transmitter Receiver.webp';
-import img81 from '../assets/images/Car Bluetooth Receiver FM Transmitter Wireless Audio.jpeg';
-import img82 from '../assets/images/Bluetooth Receiver Car Kit Handsfree Call 3.5mm Jack TF.jpeg';
-import img83 from '../assets/images/FM Transmitter FM Modulator Car Music Receiver MP3 Player.jpeg';
-import img84 from '../assets/images/Original TOMZN 63A WIFI TUYA Smartlife Reclosable.jpeg';
-import img85 from '../assets/images/EWeLink App 16A Mini Wifi Smart Switch Light On Off.jpeg';
-import img86 from '../assets/images/Tomzn 63A Wifi Smart Switch.jpeg';
-import img87 from '../assets/images/DC 1000V Solar Mini Circuit Breaker Overload Protection.jpeg';
-import img88 from '../assets/images/Solar Panel by Jasco - 180 Watt.webp';
-import img89 from '../assets/images/Pak Tech Mppt Plus Hybrid Solar Charger Controller 70.webp';
-import img90 from '../assets/images/Diwan DS4.10 MC4 Solar Panel Connector 4-6mm2 1500V DC.webp';
-import img91 from '../assets/images/Solar Power Inverter - 1000 Watt - Black.webp';
-import img92 from '../assets/images/LED Solar Wall Lamp Outdoor Waterproof Up And Down.jpeg';
-import img93 from '../assets/images/72 C0B Solar Lights Outdoor, Wireless Waterproof Solar.webp';
+import img1 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img2 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img3 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img4 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img5 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img6 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img7 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img8 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img9 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img10 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img11 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img12 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img13 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img14 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img15 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img16 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img17 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img18 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img19 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img20 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img21 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img22 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img23 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img24 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img25 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img26 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img27 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img28 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img29 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img30 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img31 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img32 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img33 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img34 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img35 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img36 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img37 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img38 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img39 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img40 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img41 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img42 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img43 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img44 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img45 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img46 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img47 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img48 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img49 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img50 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img51 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img52 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img53 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img54 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img55 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img56 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img57 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img58 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img59 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img60 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img61 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img62 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img63 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img64 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img65 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img66 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img67 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img68 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img69 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img70 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img71 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img72 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img73 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img74 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img75 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img76 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img77 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img78 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img79 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img80 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img81 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img82 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img83 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img84 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+// Import additional images
+import img85 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img86 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img87 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img88 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img89 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img90 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img91 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img92 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
+import img93 from '../assets/images/IntermaticET8215C-7-Day.jpg';
 
 
 
@@ -110,24 +111,24 @@ const Products = () => {
 
 
     {
-      id: 52,
-      title: "Tuya wifi Energy Meter",
-      price: 12,
-      description: "Tuya WiFi Smart Power Meter Earth Leakage Protector Switch ",
+      id: 1,
+      title: "Intermatic ET8215C 7-Day",
+      price: 305,
+      description: "Intermatic ET8215C 7-Day Astronomic Basic Electronic Control Time Switch",
       category: "accessories",
-      image: img52,
+      image: img1,
       rating: {
         rate: 4.4,
         count: 100
       }
     },
     {
-      id: 53,
-      title: "LCD Weekly Programmable Relay",
-      price: 6,
-      description: "12-220V LCD Weekly Programmable Electronic Relay",
+      id: 2,
+      title: "Lex LT-19P Six-Circuit",
+      price: 874,
+      description: "Lex LT-19P Six-Circuit",
       category: "accessories",
-      image: img53,
+      image: img2,
       rating: {
         rate: 4.2,
         count: 80
