@@ -30,76 +30,47 @@ import img21 from '../assets/images/TPI Corporation CE30DV 30.jpg';
 import img22 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
 import img23 from '../assets/images/TPI Corporation CE12DS 12.jpg';
 import img24 from '../assets/images/TPI Corporation CE30B 30.jpg';
-import img25 from '../assets/images/TPI Corporation CE12DS 12.jpg';
-import img26 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img27 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img28 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img29 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img30 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img31 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img32 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img33 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img34 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img35 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img36 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img37 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img38 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img39 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img40 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img41 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img42 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img43 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img44 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img45 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img46 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img47 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img48 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img49 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img50 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img51 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img52 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img53 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img54 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img55 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img25 from '../assets/images/Loren Cook GC622 Restroom.jpg';
+import img26 from '../assets/images/Loren Cook GC146 Restroom.jpg'; //74$
+import img27 from '../assets/images/Leeson Electric 122182 2.jpg';
+import img28 from '../assets/images/12512ET3G445T-W22 NEMA.jpg';
+import img29 from '../assets/images/Baldor Reliance Motor.jpg';
+import img30 from '../assets/images/US Motors H60P2E Severe.jpg';
+import img31 from '../assets/images/General Electric Control.jpg';
+import img32 from '../assets/images/Profusion LED RTS Remote.jpg';
+import img33 from '../assets/images/Schneider Electric.jpg';
+import img34 from '../assets/images/Square D 9001SKS43BH2 3.jpg';
+import img35 from '../assets/images/Enerlites DWHS-W Humidity.jpg';
+import img36 from '../assets/images/Enerlites 17000-F3-W.jpg';
+import img37 from '../assets/images/Enerlites 17001-F3-W.jpg';
+import img38 from '../assets/images/Enerlites 17003-I 3-Speed.jpg';
+import img39 from '../assets/images/One Gang Metal 3 Hole 1 2 Box.jpg';
+import img40 from '../assets/images/One Gang Metal 4 Hole.jpg';
+import img41 from '../assets/images/One Gang Metal 5 Hole.jpg';
+import img42 from '../assets/images/Four Round Metal Box with 5.jpg';
+import img43 from '../assets/images/Two Gang Metal with 3.jpg';
+import img44 from '../assets/images/Two Gang Metal with 4.jpg';
+import img45 from '../assets/images/Two Gang Metal with 5.jpg';
+import img46 from '../assets/images/One Gang Metal Box with 3.jpg';
+import img47 from '../assets/images/One Gang Metal Box with 4.jpg';
+import img48 from '../assets/images/One Gang Metal Box with 5.jpg';
+import img49 from '../assets/images/Plastic Weatherproof cover.jpg';
+import img50 from '../assets/images/Metal Weatherproof cover 1.jpg';
+import img51 from '../assets/images/Metal Weatherproof cover 1-.jpg';
+import img52 from '../assets/images/Metal, 1- Gang Extension Ring.jpg';
+import img53 from '../assets/images/Westgate GPA3-2 125V 3.jpg';
+import img54 from '../assets/images/Westgate GPA6-2 125V 3.jpg';
+import img55 from '../assets/images/Westgate GPA8-2 125V 3.jpg';
 import img56 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img57 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img58 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img59 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img60 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img61 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img62 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img63 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img64 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img65 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img66 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img67 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img68 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img69 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img70 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img71 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img72 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img73 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img74 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img75 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img76 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img77 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img78 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img79 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img80 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img81 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img82 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img83 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img84 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-// Import additional images
-import img85 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img86 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img87 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img88 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img89 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img90 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img91 from '../assets/images/IntermaticET8215C-7-Day.jpg';
-import img92 from '../assets/images/Lex LT-19P Six-Circuit.jpg';
-import img93 from '../assets/images/IntermaticET8215C-7-Day.jpg';
+import img57 from '../assets/images/General Electric THQB21100.jpg';
+import img58 from '../assets/images/E-Mon 4-EM-E20-2083200JKIT.jpg';
+import img59 from '../assets/images/Cutler Hammer JS360225A 225.jpg';
+import img60 from '../assets/images/General Electric THQP115 15.jpg';
+import img61 from '../assets/images/Aclara 78AX900044 KV2c Gen.jpg';
+import img62 from '../assets/images/General Electric THQB1115.jpg';
+import img63 from '../assets/images/General Electric THQMV100D.jpg';
+import img64 from '../assets/images/Lex HBL5269EBK 15A 125V 2P.jpg';
+import img65 from '../assets/images/Midwest U065NA1 60A ACD.jpg';
 
 
 
@@ -410,7 +381,574 @@ const Products = () => {
         rate: 4.4,
         count: 100
       }
-    }
+    },
+
+    {
+      id: 26,
+      title: "Loren Cook GC146 Restroom",
+      price: 74,
+      description: "Loren Cook GC146 Restroom",
+      category: "accessories",
+      image: img26,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    {
+      id: 27,
+      title: "Leeson Electric 122182 2",
+      price: 1299.95,
+      description: "Leeson Electric 122182 2",
+      category: "accessories",
+      image: img27,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    {
+      id: 28,
+      title: "12512ET3G445T-W22 NEMA",
+      price: 16779.95,
+      description: "12512ET3G445T-W22 NEMA",
+      category: "accessories",
+      image: img28,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    {
+      id: 29,
+      title: "Baldor Reliance Motor",
+      price: 6169.95,
+      description: "Baldor Reliance Motor",
+      category: "accessories",
+      image: img29,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    {
+      id: 30,
+      title: "US Motors H60P2E Severe",
+      price: 7879.95,
+      description: "US Motors H60P2E Severe",
+      category: "accessories",
+      image: img30,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    {
+      id: 31,
+      title: "General Electric Control",
+      price: 239.95,
+      description: "General Electric Control",
+      category: "accessories",
+      image: img31,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    {
+      id: 32,
+      title: "Profusion LED RTS Remote",
+      price: 11.95,
+      description: "Profusion LED RTS Remote",
+      category: "accessories",
+      image: img32,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    {
+      id: 33,
+      title: "Schneider Electric",
+      price: 94.95,
+      description: "Schneider Electric",
+      category: "accessories",
+      image: img33,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    {
+      id: 34,
+      title: "Square D 9001SKS43BH2 3",
+      price: 149.95,
+      description: "Square D 9001SKS43BH2 3",
+      category: "accessories",
+      image: img34,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 35,
+      title: "Enerlites DWHS-W Humidity",
+      price: 37.95,
+      description: "Enerlites DWHS-W Humidity",
+      category: "accessories",
+      image: img35,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    
+    {
+      id: 36,
+      title: "Enerlites 17000-F3-W",
+      price: 20.95,
+      description: "Enerlites 17000-F3-W",
+      category: "accessories",
+      image: img36,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    
+    {
+      id: 37,
+      title: "Enerlites 17001-F3-W",
+      price: 15.95,
+      description: "Enerlites 17001-F3-W",
+      category: "accessories",
+      image: img37,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    
+    {
+      id: 38,
+      title: "Enerlites 17003-I 3-Speed",
+      price: 9.95,
+      description: "Enerlites 17003-I 3-Speed",
+      category: "accessories",
+      image: img38,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    
+    {
+      id: 39,
+      title: "One Gang Metal 3 Hole 1 2 Box",
+      price: 3.95,
+      description: "One Gang Metal 3 Hole 1 2 Box",
+      category: "accessories",
+      image: img39,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    
+    {
+      id: 40,
+      title: "One Gang Metal 4 Hole",
+      price: 4.45,
+      description: "One Gang Metal 4 Hole",
+      category: "accessories",
+      image: img40,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+    
+    {
+      id: 41,
+      title: "One Gang Metal 5 Hole",
+      price: 6.95,
+      description: "One Gang Metal 5 Hole",
+      category: "accessories",
+      image: img41,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 42,
+      title: "Four Round Metal Box with 5",
+      price: 5,
+      description: "Four Round Metal Box with 5",
+      category: "accessories",
+      image: img42,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 43,
+      title: "Two Gang Metal with 3",
+      price: 5.95,
+      description: "Two Gang Metal with 3",
+      category: "accessories",
+      image: img43,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 44,
+      title: "Two Gang Metal with 4",
+      price: 4.5,
+      description: "Two Gang Metal with 4",
+      category: "accessories",
+      image: img44,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 45,
+      title: "Two Gang Metal with 5",
+      price: 5,
+      description: "Two Gang Metal with 5",
+      category: "accessories",
+      image: img45,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 46,
+      title: "One Gang Metal Box with 3",
+      price: 2.7,
+      descripion: "One Gang Metal Box with 3",
+      category: "accessories",
+      image: img46,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 47,
+      title: "One Gang Metal Box with 4",
+      price: 3,
+      description: "One Gang Metal Box with 4",
+      category: "accessories",
+      image: img47,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 48,
+      title: "One Gang Metal Box with 5",
+      price: 22,
+      description: "One Gang Metal Box with 5",
+      category: "accessories",
+      image: img48,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 49,
+      title: "Plastic Weatherproof cover",
+      price: 3.99,
+      description: "Plastic Weatherproof cover",
+      category: "accessories",
+      image: img49,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 50,
+      title: "Metal Weatherproof cover 1",
+      price: 3.95,
+      description: "Metal Weatherproof cover 1",
+      category: "accessories",
+      image: img50,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 51,
+      title: "Metal Weatherproof cover 1-",
+      price: 2.30,
+      description: "Metal Weatherproof cover 1-",
+      category: "accessories",
+      image: img51,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 52,
+      title: "Metal, 1- Gang Extension Ring",
+      price: 4.95,
+      description: "Metal, 1- Gang Extension Ring",
+      category: "accessories",
+      image: img52,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 53,
+      title: "Westgate GPA3-2 125V 3",
+      price: 3.63,
+      description: "Westgate GPA3-2 125V 3",
+      category: "accessories",
+      image: img53,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 54,
+      title: "Westgate GPA6-2 125V 3",
+      price: 5.24,
+      description: "Westgate GPA6-2 125V 3",
+      category: "accessories",
+      image: img54,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 55,
+      title: "Westgate GPA8-2 125V 3",
+      price: 6.67,
+      description: "Westgate GPA8-2 125V 3",
+      category: "accessories",
+      image: img55,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 56,
+      title: "Nutone 696N Exhaust Fan",
+      price: 29.95,
+      description: "Nutone 696N Exhaust Fan",
+      category: "accessories",
+      image: img56,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 57,
+      title: "General Electric THQB21100",
+      price: 99.95,
+      description: "General Electric THQB21100",
+      category: "accessories",
+      image: img57,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 58,
+      title: "E-Mon 4-EM-E20-2083200JKIT",
+      price: 1649.95,
+      description: "E-Mon 4-EM-E20-2083200JKIT",
+      category: "accessories",
+      image: img58,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 59,
+      title: "Cutler Hammer JS360225A 225",
+      price: 620.95,
+      description: "Cutler Hammer JS360225A 225",
+      category: "accessories",
+      image: img59,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 60,
+      title: "General Electric THQP115 15",
+      price: 7.95,
+      description: "General Electric THQP115 15",
+      category: "accessories",
+      image: img60,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 61,
+      title: "Aclara 78AX900044 KV2c Gen",
+      price: 499.95,
+      description: "Aclara 78AX900044 KV2c Gen",
+      category: "accessories",
+      image: img61,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 62,
+      title: "General Electric THQB1115",
+      price: 12.95,
+      description: "General Electric THQB1115",
+      category: "accessories",
+      image: img62,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 63,
+      title: "General Electric THQMV100D",
+      price: 360.95,
+      description: "General Electric THQMV100D",
+      category: "accessories",
+      image: img63,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 64,
+      title: "Lex HBL5269EBK 15A 125V 2P",
+      price: 12.75,
+      description: "Lex HBL5269EBK 15A 125V 2P",
+      category: "accessories",
+      image: img64,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+    
+    {
+      id: 65,
+      title: "Midwest U065NA1 60A ACD",
+      price: 49.44,
+      description: "Midwest U065NA1 60A ACD",
+      category: "accessories",
+      image: img65,
+      rating: {
+        rate: 4.4,
+        count: 100
+      }
+    },
+
+
+
+    
   ];
 
   const [data, setData] = useState([]);
